@@ -1,0 +1,24 @@
+:root{
+
+}
+
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+.api_dog{
+    margin-top: 2%; 
+}
+
+#image{
+    width: 30%; 
+    height: auto;
+    
+}
+
