@@ -2,6 +2,10 @@
 
 }
 
+body{
+    background: lightskyblue; 
+}
+
 *{
     box-sizing: border-box; 
     margin: 0; 
@@ -12,6 +16,10 @@ html{
     font-size: 62.5%; 
 }
 
+h1{
+    margin-top: 2%; 
+}
+
 .api_dog{
     margin-top: 2%; 
 }
@@ -19,6 +27,21 @@ html{
 #image{
     width: 30%; 
     height: auto;
-    
 }
 
+#buttons{
+    height: 50vh;
+    margin-top: 2%; 
+}
+
+#buttons button{
+    width:15%;
+    height: 11%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#buttons button:hover{
+    transform: scale(1.15); 
+    transition: 1.2s; 
+}
